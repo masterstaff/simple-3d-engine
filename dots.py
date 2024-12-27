@@ -59,7 +59,7 @@ def render_nodes(nodes):
                                    (((-math.atan((n[1]-camera_pos[1])/(n[2]-camera_pos[2]))*(180/3.1415) + 42) * 600) / 85)]
 
     return nodes_2
-nodesCar = get_object_from_file("Car Obj.obj")
+# nodesCar = get_object_from_file("Car Obj.obj")
 clock = pygame.time.Clock()
 rot = 0
 while running:
